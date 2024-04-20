@@ -1,0 +1,284 @@
+
+
+body {
+ margin: 0;   
+ font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+h3 {
+font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+ 
+ 
+}
+.logo {
+    width: 300px;
+    margin-left: 20px;
+    
+}
+.site_text_wrapper {
+   display: flex;
+   width: 70%;
+  
+   margin: auto; 
+   text-align: justify;
+   
+   margin-top: 50px;
+}
+.lead {
+   font-size: 20px;
+   font-weight: 450;
+   
+   
+}
+.company_title {
+    font-size: 45px;
+}
+
+.wrapper {
+    background-image: linear-gradient(rgba(141, 140, 140, 0.267), rgba(136, 133, 133, 0.212), rgba(131, 127, 127, 0.205), rgba(0,0,0,0.0) ),url("assets/images/bg02.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 0px solid gray;
+    height: 600px;
+    
+}
+
+/** Gallery **/
+
+img {
+   width: 100%;
+}
+.gallery {
+   
+    padding: 80px;
+}
+.gallery img {
+    background-color: #ffffff;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.gallery-modal .modal-img {
+    height: 100%;
+    
+}
+
+/** Rest fo the site **/
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.logo_name {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.slide {
+    width: 70%;
+    margin: auto;
+}
+ul li {
+    margin: 20px;
+}
+
+.location_map {
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.my_map {
+    
+    width: 600px;
+}
+.contact_button {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+ /** Media **/
+  @media screen and (max-width: 320px) {
+    
+    .slide {
+    width: 100%;
+   }
+
+   .logo {
+    width: 70px;
+    
+    }
+ body > nav > div.logo_name > a > h2 {
+    font-size: 10px;
+    }
+
+ .map_text {
+    font-size: 20px;
+ }
+    h1 {
+    font-size: 20px;
+ }
+   
+   lead {
+   font-size: 20px;
+   font-weight: 300;
+   margin-top: 50px;
+   text-align: unset;
+}
+ .location_map {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+ }
+ .my_map{
+    
+    width: 100%;
+ }
+
+ #footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+}
+@media screen and (min-width: 321px) and (max-width: 480px){
+
+     .slide {
+    width: 100%;
+   }
+
+   .logo {
+    width: 100px;
+    
+    }
+ body > nav > div.logo_name > a > h2 {
+    font-size: 20px;
+    }
+
+ .map_text {
+    font-size: 20px;
+ }
+    h1 {
+    font-size: 20px;
+ }
+
+ .location_map {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+ }
+ .my_map{
+    
+    width: 100%;
+ }
+
+ #footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+      .slide {
+    width: 100%;
+   }
+
+   .logo {
+    width: 150px;
+    
+    }
+ body > nav > div.logo_name > a > h2 {
+    font-size: 30px;
+    }
+
+ .map_text {
+    font-size: 20px;
+ }
+    h1 {
+    font-size: 20px;
+ }
+
+ .location_map {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+ }
+ .my_map{
+    
+    width: 100%;
+ }
+
+ #footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+@media screen (min-width: 769px){
+      .slide {
+    width: 100%;
+   }
+
+   .logo {
+    width: 100px;
+    
+    }
+ body > nav > div.logo_name > a > h2 {
+    font-size: 20px;
+    }
+
+ .map_text {
+    font-size: 20px;
+ }
+    h1 {
+    font-size: 20px;
+ }
+
+ .location_map {
+    padding-top: 90px;
+    width: 100%;
+    text-align: center;
+ }
+ .my_map{
+    
+    width: 100%;
+ }
+
+ #footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+  
+
+
+   

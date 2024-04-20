@@ -7,11 +7,31 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 h3 {
 font-family: "Source Serif 4", serif;
   font-optical-sizing: auto;
  
  
+}
+.message {
+   padding-top: 50px;
+   display: column;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.comment {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+  font-size: 35px;
+}
+.phone {
+   display: flex;
+   justify-content: space-around;
+   
+   width: 50%;
+   margin: auto;
 }
 .logo {
     width: 300px;
@@ -130,6 +150,26 @@ ul li {
     font-size: 10px;
     }
 
+.message {
+   padding-top: 50px;
+   display: column;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+}
+.comment {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+  font-size: 20px;
+}
+.phone {
+   display: block;
+   justify-content: center;
+   
+   width: 50%;
+   margin: auto;
+}
+
  .map_text {
     font-size: 20px;
  }
@@ -137,7 +177,7 @@ ul li {
     font-size: 20px;
  }
    
-   lead {
+   .lead {
    font-size: 20px;
    font-weight: 300;
    margin-top: 50px;
@@ -161,6 +201,7 @@ ul li {
 }
 
 }
+
 @media screen and (min-width: 321px) and (max-width: 480px){
 
      .slide {
@@ -175,6 +216,28 @@ ul li {
     font-size: 20px;
     }
 
+   .message {
+   padding-top: 50px;
+   display: column;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.comment {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+  font-size: 20px;
+}
+.phone {
+   display: block;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+   
+}
+.phone_office {
+   padding: 20px;
+}
  .map_text {
     font-size: 20px;
  }
@@ -193,13 +256,14 @@ ul li {
  }
 
  #footer {
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px){
 
       .slide {
@@ -214,6 +278,33 @@ ul li {
     font-size: 30px;
     }
 
+    .message {
+   padding-top: 50px;
+   display: column;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+.comment {
+   font-family: "Source Serif 4", serif;
+   font-optical-sizing: auto;
+  font-size: 20px;
+}
+.phone {
+   display: block;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+   
+}
+.phone_office {
+   padding: 20px;
+}
+
+.myForm {
+   width: 90%;
+   margin: auto;
+}
  .map_text {
     font-size: 20px;
  }
@@ -232,7 +323,7 @@ ul li {
  }
 
  #footer {
-    margin-top: 100px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
